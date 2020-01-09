@@ -1,0 +1,11 @@
+- tenant:
+    name: gerrit
+    report-build-page: true
+    web-root: http://localhost:3000/
+    source:
+      opendev:
+        untrusted-projects:
+          - zuul/zuul-jobs
+#      googlesource:
+#        untrusted-projects:
+#          - zuul/ops
