@@ -9,6 +9,8 @@
       template:
         src: kubecfg.yaml.j2
         dest: "{{ ansible_user_dir }}/.kube/config"
+      # Set no_log because we are templating in the token
+      no_log: true
 
     - name: Update Letsencrypt configuration
       k8s:
