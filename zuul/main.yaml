@@ -10,3 +10,4 @@
           - zuul/config
         untrusted-projects:
           - zuul/ops
+          - zuul/jobs
