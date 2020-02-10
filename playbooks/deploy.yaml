@@ -1,7 +1,7 @@
 - name: Deploy Zuul
   hosts: localhost
   vars:
-    root: "{{ (zuul is defined) | ternary(zuul.executor.work_root + '/' + zuul.project.src_dir, '..') }}"
+    root: "{{ (zuul.executor.work_root + '/' + zuul.project.src_dir) }}"
   tasks:
     - name: Make kube directory
       file:
