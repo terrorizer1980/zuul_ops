@@ -1,5 +1,7 @@
 - name: Deploy Zuul
   hosts: localhost
+  vars:
+    root: "{{ (zuul is defined) | ternary(zuul.project.src_dir, '..') }}"
   tasks:
     - name: Make kube directory
       file:
@@ -15,12 +17,12 @@
     - name: Update Letsencrypt configuration
       k8s:
         state: present
-        src: ../k8s/letsencrypt.yaml
+        src: "{{ root }}/k8s/letsencrypt.yaml"
 
     - name: Update authdaemon configuration
       k8s:
         state: present
-        src: ../k8s/authdaemon.yaml
+        src: "{{ root }}/k8s/authdaemon.yaml"
 
     - name: Update Nodepool config
       k8s:
@@ -37,7 +39,7 @@
               app.kubernetes.io/part-of: nodepool
           stringData:
             clouds.yaml: ""
-            nodepool.yaml: "{{ lookup('file', '../nodepool/nodepool.yaml') }}"
+            nodepool.yaml: "{{ lookup('file', root + '/nodepool/nodepool.yaml') }}"
 
     - name: Update Zuul/Nodepool private key
       k8s:
@@ -72,7 +74,7 @@
               app.kubernetes.io/instance: zuul
               app.kubernetes.io/part-of: zuul
           stringData:
-            main.yaml: "{{ lookup('template', '../zuul/zuul.conf') }}"
+            main.yaml: "{{ lookup('template', root + '/zuul/zuul.conf') }}"
       register: zuul_config
       # Set no_log because we are templating passwords into the config
       no_log: true
@@ -91,18 +93,18 @@
               app.kubernetes.io/instance: zuul
               app.kubernetes.io/part-of: zuul
           stringData:
-            main.yaml: "{{ lookup('file', '../zuul/main.yaml') }}"
+            main.yaml: "{{ lookup('file', root + '/zuul/main.yaml') }}"
       register: tenant_config
 
     - name: Update Nodepool deployment
       k8s:
         state: present
-        src: ../k8s/nodepool.yaml
+        src: "{{ root }}/k8s/nodepool.yaml"
 
     - name: Update Zuul deployment
       k8s:
         state: present
-        src: ../k8s/zuul.yaml
+        src: "{{ root }}/k8s/zuul.yaml"
 
     - name: Reconfigure Zuul
       when: tenant_config.changed or zuul_config.changed

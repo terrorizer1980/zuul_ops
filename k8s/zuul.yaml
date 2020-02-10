@@ -180,8 +180,8 @@ spec:
         app.kubernetes.io/component: zuul-executor
     spec:
       securityContext:
-        runAsUser: 1000
-        runAsGroup: 1000
+        runAsUser: 10001
+        runAsGroup: 10001
       containers:
       - name: executor
         image: jeblair/zuul-executor:latest
