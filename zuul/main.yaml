@@ -9,5 +9,5 @@
         config-projects:
           - zuul/config
         untrusted-projects:
-          - zuul/ops
           - zuul/jobs
+          - zuul/ops
