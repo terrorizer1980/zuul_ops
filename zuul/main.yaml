@@ -9,5 +9,24 @@
         config-projects:
           - zuul/config
         untrusted-projects:
+          # Order matters here, in the case of conflicting job names,
+          # the first wins, so give the global jobs repo(s)
+          # preference.
           - zuul/jobs
           - zuul/ops
+          # All of the rest of the projects, alphabetically sorted.
+          - gerrit
+          - jgit
+          - plugins/checks
+          - plugins/codemirror-editor
+          - plugins/commit-message-length-validator
+          - plugins/delete-project
+          - plugins/download-commands
+          - plugins/gitiles
+          - plugins/hooks
+          - plugins/plugin-manager
+          - plugins/replication
+          - plugins/reviewnotes
+          - plugins/singleusergroup
+          - plugins/webhooks
+          - polymer-bridges
