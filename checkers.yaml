@@ -1,0 +1,33 @@
+# A list of checkers which should be defined in Gerrit.
+#
+# If the UUID of the checker does not already exist in Gerrit, it is
+# created.  If it does exist, it is updated.  Fields which are not
+# present in the input are not touched (nor are they considered when
+# comparing the declared state to the existing state).
+
+checkers:
+  - uuid: "opendev-zuul-third-party-check:plugins_checks"
+    repository: "plugins/checks"
+    name: "Zuul Tests"
+    description: "Tests of Checks plugin with Zuul"
+    status: "DISABLED"
+
+  - uuid: "zuul-check:plugins_checks"
+    repository: "plugins/checks"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:zuul_config"
+    repository: "zuul/config"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:zuul_jobs"
+    repository: "zuul/jobs"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:zuul_ops"
+    repository: "zuul/ops"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
