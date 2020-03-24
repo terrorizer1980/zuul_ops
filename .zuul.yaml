@@ -4,7 +4,9 @@
     secrets:
       - secret: deploy-zuul-credentials
         name: zuul_deploy
-    run: playbooks/deploy.yaml
+    run:
+      - playbooks/deploy.yaml
+      - playbooks/checkers.yaml
     # Run on the executor only (an empty nodeset)
     nodeset:
       nodes: []
