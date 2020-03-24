@@ -31,3 +31,60 @@ checkers:
     repository: "zuul/ops"
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
+
+# Core Plugins
+
+  - uuid: "zuul-check:plugins_codemirror-editor"
+    repository: "plugins/codemirror-editor"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_commit-message-length-validator"
+    repository: "plugins/commit-message-length-validator"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_delete-project"
+    repository: "plugins/delete-project"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_download-commands"
+    repository: "plugins/download-commands"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_gitiles"
+    repository: "plugins/gitiles"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_hooks"
+    repository: "plugins/hooks"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_plugin-manager"
+    repository: "plugins/plugin-manager"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_replication"
+    repository: "plugins/replication"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_reviewnotes"
+    repository: "plugins/reviewnotes"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_singleusergroup"
+    repository: "plugins/singleusergroup"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_webhooks"
+    repository: "plugins/webhooks"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
