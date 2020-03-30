@@ -147,7 +147,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: jeblair/zuul-web:latest
+        image: zuul/zuul-web:latest
         args:
         - /usr/local/bin/zuul-web
         - -d
@@ -194,7 +194,7 @@ spec:
         runAsGroup: 10001
       containers:
       - name: executor
-        image: jeblair/zuul-executor:latest
+        image: zuul/zuul-executor:latest
         args:
         - /usr/local/bin/zuul-executor
         - -d
@@ -255,7 +255,7 @@ spec:
     spec:
       containers:
       - name: scheduler
-        image: jeblair/zuul-scheduler:latest
+        image: zuul/zuul-scheduler:latest
         args:
         - /usr/local/bin/zuul-scheduler
         - -d
