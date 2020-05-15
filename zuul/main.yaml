@@ -17,7 +17,6 @@
           # All of the core projects, alphabetically sorted.
           - gerrit
           - jgit
-          - plugins/checks
           - plugins/codemirror-editor
           - plugins/commit-message-length-validator
           - plugins/delete-project
@@ -31,4 +30,5 @@
           - plugins/webhooks
           - polymer-bridges
           # All of the rest of the projects, alphabetically sorted.
+          - plugins/checks
           - plugins/code-owners
