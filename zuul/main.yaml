@@ -32,3 +32,4 @@
           # All of the rest of the projects, alphabetically sorted.
           - plugins/checks
           - plugins/code-owners
+          - plugins/oauth
