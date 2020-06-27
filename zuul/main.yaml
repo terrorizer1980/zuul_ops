@@ -33,3 +33,4 @@
           - plugins/checks
           - plugins/code-owners
           - plugins/oauth
+          - plugins/reviewers
