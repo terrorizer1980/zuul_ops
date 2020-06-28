@@ -35,3 +35,4 @@
           - plugins/lfs
           - plugins/oauth
           - plugins/reviewers
+          - plugins/saml

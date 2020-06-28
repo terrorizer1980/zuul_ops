@@ -110,3 +110,8 @@ checkers:
     repository: "plugins/reviewers"
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_saml"
+    repository: "plugins/saml"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
