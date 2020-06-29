@@ -106,6 +106,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_project-group-structure"
+    repository: "plugins/project-group-structure"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_reviewers"
     repository: "plugins/reviewers"
     name: "Zuul Check Pipeline"

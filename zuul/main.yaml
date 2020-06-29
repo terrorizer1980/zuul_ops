@@ -34,5 +34,6 @@
           - plugins/code-owners
           - plugins/lfs
           - plugins/oauth
+          - plugins/project-group-structure
           - plugins/reviewers
           - plugins/saml
