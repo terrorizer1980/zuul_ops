@@ -52,3 +52,4 @@
           - plugins/rename-project
           - plugins/reviewers
           - plugins/saml
+          - plugins/serviceuser
