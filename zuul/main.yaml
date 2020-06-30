@@ -53,3 +53,4 @@
           - plugins/reviewers
           - plugins/saml
           - plugins/serviceuser
+          - plugins/slack-integration
