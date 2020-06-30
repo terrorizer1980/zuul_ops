@@ -210,3 +210,8 @@ checkers:
     repository: "plugins/task"
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_uploadvalidator"
+    repository: "plugins/uploadvalidator"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"

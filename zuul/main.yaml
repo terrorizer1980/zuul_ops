@@ -55,3 +55,4 @@
           - plugins/serviceuser
           - plugins/slack-integration
           - plugins/task
+          - plugins/uploadvalidator
