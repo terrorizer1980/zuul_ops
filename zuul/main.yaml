@@ -46,5 +46,6 @@
           - plugins/messageoftheday
           - plugins/oauth
           - plugins/project-group-structure
+          - plugins/quota
           - plugins/reviewers
           - plugins/saml
