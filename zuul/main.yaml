@@ -38,6 +38,7 @@
           - plugins/events-log
           - plugins/gc-conductor
           - plugins/go-import
+          - plugins/heartbeat
           - plugins/lfs
           - plugins/oauth
           - plugins/project-group-structure
