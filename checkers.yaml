@@ -221,6 +221,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_rabbitmq"
+    repository: "plugins/rabbitmq"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_rate-limiter"
     repository: "plugins/rate-limiter"
     name: "Zuul Check Pipeline"

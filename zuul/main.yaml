@@ -57,6 +57,7 @@
           - plugins/oauth
           - plugins/project-group-structure
           - plugins/quota
+          - plugins/rabbitmq
           - plugins/rate-limiter
           - plugins/readonly
           - plugins/rename-project
