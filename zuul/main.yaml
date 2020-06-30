@@ -42,6 +42,7 @@
           - plugins/heartbeat
           - plugins/high-availability
           - plugins/imagare
+          - plugins/its-base
           - plugins/javamelody
           - plugins/lfs
           - plugins/log-level
