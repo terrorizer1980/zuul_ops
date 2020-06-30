@@ -96,6 +96,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_avatars-external"
+    repository: "plugins/avatars-external"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_batch"
     repository: "plugins/batch"
     name: "Zuul Check Pipeline"
