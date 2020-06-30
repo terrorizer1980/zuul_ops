@@ -151,6 +151,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_messageoftheday"
+    repository: "plugins/messageoftheday"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_oauth"
     repository: "plugins/oauth"
     name: "Zuul Check Pipeline"

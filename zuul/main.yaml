@@ -43,6 +43,7 @@
           - plugins/javamelody
           - plugins/lfs
           - plugins/log-level
+          - plugins/messageoftheday
           - plugins/oauth
           - plugins/project-group-structure
           - plugins/reviewers
