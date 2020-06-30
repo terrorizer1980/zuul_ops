@@ -47,5 +47,6 @@
           - plugins/oauth
           - plugins/project-group-structure
           - plugins/quota
+          - plugins/rate-limiter
           - plugins/reviewers
           - plugins/saml
