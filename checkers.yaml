@@ -146,6 +146,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_log-level"
+    repository: "plugins/log-level"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_oauth"
     repository: "plugins/oauth"
     name: "Zuul Check Pipeline"

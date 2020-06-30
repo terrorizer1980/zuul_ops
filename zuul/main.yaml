@@ -42,6 +42,7 @@
           - plugins/high-availability
           - plugins/javamelody
           - plugins/lfs
+          - plugins/log-level
           - plugins/oauth
           - plugins/project-group-structure
           - plugins/reviewers
