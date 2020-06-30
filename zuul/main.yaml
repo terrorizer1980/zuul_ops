@@ -52,6 +52,7 @@
           - plugins/menuextender
           - plugins/messageoftheday
           - plugins/metrics-reporter-jmx
+          - plugins/metrics-reporter-graphite
           - plugins/metrics-reporter-prometheus
           - plugins/oauth
           - plugins/project-group-structure
