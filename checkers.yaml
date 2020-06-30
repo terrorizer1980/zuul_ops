@@ -141,6 +141,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_imagare"
+    repository: "plugins/imagare"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_javamelody"
     repository: "plugins/javamelody"
     name: "Zuul Check Pipeline"

@@ -41,6 +41,7 @@
           - plugins/go-import
           - plugins/heartbeat
           - plugins/high-availability
+          - plugins/imagare
           - plugins/javamelody
           - plugins/lfs
           - plugins/log-level
