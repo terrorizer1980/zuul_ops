@@ -49,5 +49,6 @@
           - plugins/quota
           - plugins/rate-limiter
           - plugins/readonly
+          - plugins/rename-project
           - plugins/reviewers
           - plugins/saml
