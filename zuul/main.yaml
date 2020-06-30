@@ -30,6 +30,7 @@
           - plugins/webhooks
           - polymer-bridges
           # All of the rest of the projects, alphabetically sorted.
+          - plugins/admin-console
           - plugins/checks
           - plugins/code-owners
           - plugins/lfs
