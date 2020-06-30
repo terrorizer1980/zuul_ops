@@ -171,6 +171,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_metrics-reporter-jmx"
+    repository: "plugins/metrics-reporter-jmx"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_oauth"
     repository: "plugins/oauth"
     name: "Zuul Check Pipeline"

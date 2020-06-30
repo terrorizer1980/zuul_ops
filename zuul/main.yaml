@@ -47,6 +47,7 @@
           - plugins/log-level
           - plugins/menuextender
           - plugins/messageoftheday
+          - plugins/metrics-reporter-jmx
           - plugins/oauth
           - plugins/project-group-structure
           - plugins/quota
