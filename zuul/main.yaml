@@ -35,6 +35,7 @@
           - plugins/changemessage
           - plugins/checks
           - plugins/code-owners
+          - plugins/events-log
           - plugins/lfs
           - plugins/oauth
           - plugins/project-group-structure
