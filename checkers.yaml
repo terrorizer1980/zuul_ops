@@ -161,6 +161,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_menuextender"
+    repository: "plugins/menuextender"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_messageoftheday"
     repository: "plugins/messageoftheday"
     name: "Zuul Check Pipeline"
