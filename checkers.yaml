@@ -111,6 +111,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_branch-network"
+    repository: "plugins/branch-network"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_changemessage"
     repository: "plugins/changemessage"
     name: "Zuul Check Pipeline"

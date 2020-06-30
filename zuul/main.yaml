@@ -34,6 +34,7 @@
           - plugins/autosubmitter
           - plugins/avatars-external
           - plugins/batch
+          - plugins/branch-network
           - plugins/changemessage
           - plugins/checks
           - plugins/code-owners
