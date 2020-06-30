@@ -205,3 +205,8 @@ checkers:
     repository: "plugins/slack-integration"
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_task"
+    repository: "plugins/task"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"

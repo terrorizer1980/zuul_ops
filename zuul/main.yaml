@@ -54,3 +54,4 @@
           - plugins/saml
           - plugins/serviceuser
           - plugins/slack-integration
+          - plugins/task
