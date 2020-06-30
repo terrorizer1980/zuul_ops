@@ -121,6 +121,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_go-import"
+    repository: "plugins/go-import"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_lfs"
     repository: "plugins/lfs"
     name: "Zuul Check Pipeline"
