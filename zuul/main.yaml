@@ -48,5 +48,6 @@
           - plugins/project-group-structure
           - plugins/quota
           - plugins/rate-limiter
+          - plugins/readonly
           - plugins/reviewers
           - plugins/saml
