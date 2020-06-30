@@ -141,6 +141,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_healthcheck"
+    repository: "plugins/healthcheck"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_heartbeat"
     repository: "plugins/heartbeat"
     name: "Zuul Check Pipeline"

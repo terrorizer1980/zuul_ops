@@ -41,6 +41,7 @@
           - plugins/events-log
           - plugins/gc-conductor
           - plugins/go-import
+          - plugins/healthcheck
           - plugins/heartbeat
           - plugins/high-availability
           - plugins/imagare
