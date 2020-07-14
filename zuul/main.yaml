@@ -51,6 +51,7 @@
           - plugins/log-level
           - plugins/menuextender
           - plugins/messageoftheday
+          - plugins/metrics-reporter-cloudwatch
           - plugins/metrics-reporter-jmx
           - plugins/metrics-reporter-graphite
           - plugins/metrics-reporter-prometheus

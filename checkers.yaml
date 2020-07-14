@@ -191,6 +191,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_metrics-reporter-cloudwatch"
+    repository: "plugins/metrics-reporter-cloudwatch"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_metrics-reporter-graphite"
     repository: "plugins/metrics-reporter-graphite"
     name: "Zuul Check Pipeline"
