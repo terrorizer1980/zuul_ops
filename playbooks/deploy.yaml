@@ -3,6 +3,14 @@
   vars:
     root: "{{ (zuul.executor.work_root + '/' + zuul.project.src_dir) }}"
   tasks:
+    - name: Remove argocd
+      k8s:
+        state: absent
+        definition:
+          apiVersion: v1
+          kind: Namespace
+          metadata:
+            name: argocd
     - name: Make kube directory
       file:
         path: "{{ ansible_user_dir }}/.kube"
