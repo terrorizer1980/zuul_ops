@@ -19,6 +19,11 @@
         state: present
         src: "{{ root }}/k8s/certmanager.yaml"
 
+    - name: Update Zookeeper certs
+      k8s:
+        state: present
+        src: "{{ root }}/k8s/zookeeper/certs.yaml"
+
     - name: Update Zookeeper deployment
       k8s:
         state: present
