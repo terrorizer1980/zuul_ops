@@ -13,6 +13,11 @@ spec:
   keyEncoding: pkcs8
   secretName: zookeeper-server-tls
   commonName: server
+  usages:
+    - digital signature
+    - key encipherment
+    - server auth
+    - client auth
   dnsNames:
   - zookeeper-0.zookeeper-headless.zookeeper.svc.cluster.local
   - zookeeper-0
