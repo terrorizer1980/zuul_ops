@@ -68,3 +68,4 @@
           - plugins/slack-integration
           - plugins/task
           - plugins/uploadvalidator
+          - plugins/zuul
