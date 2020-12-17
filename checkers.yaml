@@ -285,3 +285,8 @@ checkers:
     repository: "plugins/zuul"
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
+
+  - uuid: "zuul-check:plugins_zuul-results-summary"
+    repository: "plugins/zuul-results-summary"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"

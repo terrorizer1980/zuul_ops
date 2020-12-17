@@ -69,3 +69,4 @@
           - plugins/task
           - plugins/uploadvalidator
           - plugins/zuul
+          - plugins/zuul-results-summary
