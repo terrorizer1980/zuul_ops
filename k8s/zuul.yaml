@@ -126,9 +126,6 @@ spec:
       containers:
       - name: merger
         image: zuul/zuul-merger:latest
-        args:
-        - /usr/local/bin/zuul-merger
-        - -d
         volumeMounts:
         - name: zuul-config
           mountPath: /etc/zuul
@@ -172,9 +169,6 @@ spec:
       containers:
       - name: web
         image: zuul/zuul-web:latest
-        args:
-        - /usr/local/bin/zuul-web
-        - -d
         ports:
         - name: zuul-web
           containerPort: 9000
@@ -225,9 +219,6 @@ spec:
       containers:
       - name: executor
         image: zuul/zuul-executor:latest
-        args:
-        - /usr/local/bin/zuul-executor
-        - -d
         ports:
         - name: logs
           containerPort: 7900
@@ -292,9 +283,6 @@ spec:
       containers:
       - name: scheduler
         image: zuul/zuul-scheduler:latest
-        args:
-        - /usr/local/bin/zuul-scheduler
-        - -d
         ports:
         - name: gearman
           containerPort: 4730
