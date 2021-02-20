@@ -12,6 +12,7 @@ providers:
     project: gerritcodereview-ci
     region: us-central1
     zone: us-central1-a
+    boot-timeout: 120
     cloud-images:
       - name: debian-stretch
         image-project: debian-cloud
