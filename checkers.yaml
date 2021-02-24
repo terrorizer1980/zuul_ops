@@ -261,6 +261,11 @@ checkers:
     name: "Zuul Check Pipeline"
     description: "Run Zuul jobs on new patchsets"
 
+  - uuid: "zuul-check:plugins_server-config"
+    repository: "plugins/server-config"
+    name: "Zuul Check Pipeline"
+    description: "Run Zuul jobs on new patchsets"
+
   - uuid: "zuul-check:plugins_serviceuser"
     repository: "plugins/serviceuser"
     name: "Zuul Check Pipeline"

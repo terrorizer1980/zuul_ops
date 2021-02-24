@@ -64,6 +64,7 @@
           - plugins/rename-project
           - plugins/reviewers
           - plugins/saml
+          - plugins/server-config
           - plugins/serviceuser
           - plugins/slack-integration
           - plugins/task
