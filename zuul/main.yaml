@@ -33,6 +33,7 @@
           - plugins/admin-console
           - plugins/autosubmitter
           - plugins/avatars-external
+          - plugins/avatars-gravatar
           - plugins/batch
           - plugins/branch-network
           - plugins/changemessage
