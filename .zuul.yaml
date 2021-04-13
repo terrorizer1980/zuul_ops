@@ -48,6 +48,27 @@
           lEW4RYyH0lVgX+/1IWTzg9NxrjMk3zp8QxdwedBJj0v7gK0xFU63QC/en/CdQr77CqOOa
           TKG0IsEqjoHcXTjIsSybKsDoK9xpHko3uvNqlDWtixDeTg7Ku/EQMt7ceeYHhob6ICbjj
           E/5usYA/9npt9dPBnM2PKyR9b8ZZop6CYJSZplduvnPk2mYVbdtPdgHzTPCnPA=
+      keystore_password: !encrypted/pkcs1-oaep
+        - CNLRTTW8KxfDYZDPfVel7tNxzK3pqUxKfbKqBrLSGHznYKYFQNl+pUwK446KcEYMpmXdm
+          /0aIE3+7VeziT3UC3IXQqMsk72Z+t5p9/IZYJVZ2HWum0rBE2SXhw4hGc/00Tb9IVdKfH
+          tJAOFBVrNBJsbQo87/N4qehmNh72+rKce2YiZi/Ek1b55OxEAeYvbR0EMPm3fQbe6+qMT
+          U6cyIk1ol4zuE9yEYhppEOcOZxduKFpDUFiXI+ethdVfXjMZQizOMZcxubrZXEaOryhpA
+          cHhk9FzmqkwSdIrysxwf8XfE3mY8yfZWdX1NL3lGc09QVI0QvL4+WRx+ZG01w+tXHcVh6
+          s1+iaS+500iXnNwsgE+6y4t4YVSPCoikjXv4/KX0IDE/Iq70Ne0LKURhO88slCydBzKL6
+          HNbOijyOL0alJD1HierMr0e6b62VLi8MKR+Z0XPoG/cDhx6B0BepOvyLSZ/wGjLeqvd07
+          nv79+zTUmDIo7ZbLs10mpytSyQLuPKydAW+Mt47ExiKNqluOERgYLm0BPJk5SOOhsGvxc
+          OZSerOUhdrQJ7WhyS8n1D0a0tKKmy6X2c/wy8lRf3RojDD9UihLVbRG1UnWzQZHKIuaI3
+          D14UN0AR9cHPbYqm8nrpMKwmeL7tKH3ZpQUDxkHImtbpPyYGbPxcQymPQSbruA=
+        - ShvoIl01M0BMHL2ehcDUWQpODMqyF0GJzhIz/pru3KrkOlqTA4ujR8a8/x37d2+L7Bdoc
+          hDlZNTwfY6sc6fIJExm8qg8yNx53dol9+4cjTOiN8DEswlF/dB9jaUh6VbIX9AqHjJpE+
+          Nn8QgHBcszqX/BOO2CobjCrD0kSqigYB+jaGARCydRlKJj7e72P7z7dCuUTgB6JZisBmI
+          /arBCU8wnUW8Yh6cpd6k+2n4gnkBg/2IWk53GOB/O37Q0zIuzrSXs3WIGPe46u8xi5yOu
+          lnDcIzkRtbXrtLy/QRnIVXDzT3+5OHITWb3SEj1c3kMCswQQapCwSuFEvkDXZ3M8klbOH
+          DhalyzrLxjet5kB9ulwMm52J97JrtcV9TW80qGg64alNIleQsKQ7iLhtsjkwE4DhMRZav
+          uBz8p1l2nHc2eZIXve7zMxzvX4leMZ1GaWT0/iN/x6wlTRAUYAFyOfCwAMOGfqcvf2Peu
+          qYontJtjuh4vlgJmyj3+D86fK6ESJg/9ocw2gPR858Jk50bTEaZczcWqsURUOLloSyM5r
+          f+gsUtS0kxFqdKbQxjYuYC8Nh32SdA7T8ufKevn3ZU/t1O6Llbg1n9SmYahrsQs0TKIh1
+          C4/WPq76MDi8QdU+JBf5CSXngH4ZFPFyfx3HzQ59m6nCaFiDkeZMvsGUNQrzkw=
       nodepool_private_key: !encrypted/pkcs1-oaep
         - mGUMLYmV/GeWKzDjH9vh0olnVDHJYzeXjZJegdCACyCCk2ziyRGRhrKYIAmLpESgYvEnF
           21HAx3Zb5/C8rYrhLBkgJGxQifmI61c8hbh9/qS1Sdl3lukTNAC95MbNQKyz5hkDMSYzz
